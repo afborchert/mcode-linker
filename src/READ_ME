@@ -1,0 +1,12 @@
+Usage: mcl [-o outfile] [-b base] [-l] main [ objects ... ]
+
+Zuerst linkt man die Basis per
+
+	mcl -o Base main objects
+
+und anschliessend die einzelnen Paesse per
+
+	mcl -o Passx -b Base main objects
+
+Default Outputfile ist "mcl.out", "-l" liefert ein Listing mit
+den vergebenen Modulnummern und den damit verbunden FIXUP's.
